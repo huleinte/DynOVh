@@ -4,8 +4,8 @@ function get-publicip
 }
 function get-Konibodns
 {
-    $OVHUSER = "konibo.info-cabdrpinto"
-    $OVHPASS = "Ko75016dL"
+    $OVHUSER = T1ZIVVNFUg=="
+    $OVHPASS = "T1ZIVVNFUg=="
      $password = ConvertTo-SecureString $OVHPASS -AsPlainText -Force;
      return New-Object System.Management.Automation.PSCredential ($OVHUSER, $password) 
 }
